@@ -120,11 +120,13 @@ body {
       color: black;
   }
   .card {
+    border: 5px black;
     margin: auto;
     width: 15%; 
     padding: 50px;
      float: right;
     }
+
 
     footer{
         margin: auto;
