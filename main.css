@@ -12,7 +12,6 @@ body {
   
   .header-Image{
     /* Wave Color */
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59adeb+0,42c2b5+52,34ce93+100 */
     background: #59adeb;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
@@ -33,6 +32,53 @@ body {
     text-align: center;
     margin: 0 auto;
   }
+
+  .about-Image {
+    background: #59adeb;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#598ceb', endColorstr='#344bce', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background-size: 350% 350%;
+    animation: waveColors 8s ease infinite;
+    /* End Wave Color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+
+  }
+  .resume-Image{
+    background: #9573b1;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #9573b1 0%, #5952c2 52%, #6148a7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #9573b1 0%, #5952c2  52%, #6148a7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #9573b1 0%, #5952c2  52%, #6148a7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9573b1', endColorstr='#6148a7', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background-size: 350% 350%;
+    animation: waveColors 8s ease infinite;
+    /* End Wave Color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+
+ }
   
   header {
      border: 200px;
@@ -120,12 +166,44 @@ body {
       color: black;
   }
   .card {
-    border: 5px black;
-    margin: auto;
+    
+
+    
+    margin-left: 325px; 
     width: 15%; 
     padding: 50px;
-     float: right;
+     
+ 
     }
+
+   
+    
+    
+    .navbar{
+        display: block;
+        margin: auto;
+        
+        
+        text-align: center;
+        
+        
+
+    }
+    .navbar-nav {
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+
+.navbar-nav li {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
 
 
     footer{
@@ -133,8 +211,104 @@ body {
         top: 0;
         bottom: 0;
     }
+
   .footer-Image{
     /* Wave Color */
+    background: #59adeb;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background-size: 350% 350%;
+    animation: waveColors 8s ease infinite;
+    /* End Wave Color */
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    
+    
+  }
+
+  .about-Footer {
+     /* Wave Color */
+     background: #598ceb;
+     /* Old browsers */
+     background: -moz-linear-gradient(-45deg, );
+     /* FF3.6-15 */
+     background: -webkit-linear-gradient(-45deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
+     /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(135deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
+     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#598ceb', endColorstr='#344bce', GradientType=1);
+     /* IE6-9 fallback on horizontal gradient */
+     background-size: 350% 350%;
+     animation: waveColors 8s ease infinite;
+     /* End Wave Color */
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     margin-top: 75px;
+     
+  }
+
+  .resume-Footer {
+    /* Wave Color */
+     background: #9573b1;
+     /* Old browsers */
+     background: -moz-linear-gradient(-45deg, );
+     /* FF3.6-15 */
+     background: -webkit-linear-gradient(-45deg,#9573b1 0%, #5952c2 52%, #6148a7 100%);
+     /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(135deg, #9573b1 0%, #5952c2 52%, #6148a7 100%);
+     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9573b1', endColorstr='#6148a7', GradientType=1);
+     /* IE6-9 fallback on horizontal gradient */
+     background-size: 350% 350%;
+     animation: waveColors 8s ease infinite;
+     /* End Wave Color */
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     margin-top: 75px;
+     
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0;
+    
+  
+
+  }
+
+  .navbar-nav li {
+    padding-right: 20px; 
+    float: none;
+    display: inline-block;
+     
+     
+  }
+
+  .navbar-nav li a {
+      color: white;
+  }
+  .navbar-nav li a.active {
+      text-decoration: underline;
+   
+    
+}
+
+
+  .nav navbar-nav {
+        /* Wave Color */
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59adeb+0,42c2b5+52,34ce93+100 */
     background: #59adeb;
     /* Old browsers */
@@ -150,13 +324,15 @@ body {
     animation: waveColors 8s ease infinite;
     /* End Wave Color */
     position: absolute;
-   
+    top: 0;
+    left: 0;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
     
-    
-  }
 
+  }
+ 
  
   
   
