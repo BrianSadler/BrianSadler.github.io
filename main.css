@@ -175,6 +175,51 @@ body {
      
  
     }
+    .card-img-top {
+        width: 135px; 
+        height: 200px;
+    }
+
+    
+  
+   
+
+
+    @media only screen and (max-width: 736px) {
+        /* phones */
+
+        .card {
+            margin-left: 10px;
+            width: 15%; 
+            padding: 50px;
+        }
+
+        .card-img-top {
+            width: 95px;
+            height:150px;
+            margin-left: 75px;
+
+        }
+
+        .card-title {
+            margin-left: 80px;
+            font-size: 15px;
+        }
+        .card-text {
+            font-size: 15px;
+            margin-left: 60px;
+            margin-right:5px; 
+            margin-top: 25px;
+            
+        }
+        .card-block{
+            margin-left: 55px;
+        }
+
+     
+
+       
+    }
 
    
     
