@@ -1,16 +1,16 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
-  }
+}
   
-  .js-nav {
+.js-nav {
     color: white;
     text-decoration: none;
     position: absolute;
     left: 2em;
-  }
+}
   
-  .header-Image{
+.header-Image{
     /* Wave Color */
     background: #59adeb;
     /* Old browsers */
@@ -31,9 +31,9 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-  }
+}
 
-  .about-Image {
+.about-Image {
     background: #59adeb;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #598ceb 0%, #4284c2 52%, #344bce 100%);
@@ -53,10 +53,9 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
+}
 
-
-  }
-  .resume-Image{
+.resume-Image{
     background: #9573b1;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #9573b1 0%, #5952c2 52%, #6148a7 100%);
@@ -76,15 +75,12 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-
-
- }
+}
   
-  header {
+header {
      border: 200px;
-     padding: 115px;
-     
-  }
+     padding: 115px;     
+}
 
   
   .header-Text {
@@ -182,12 +178,43 @@ body {
 
     
   
-   
+    .about-Middle-Image {
+        width:350px; 
+        height: 250px; 
+        padding: 10px; 
+        margin-left: 535px; 
+        margin-top: 50px; border: 3px black solid;
+    }
 
+
+     .about-Paragraph-Header {
+        margin-left:550px
+    }
+
+    .about-Paragraph-Text {
+        margin-left:520px; 
+        margin-right: 520px; 
+        border: 2px black solid; 
+        font-size: 15px;
+    }
+
+    .github-Image {
+        margin-left:275px;
+    }
+    .linkedIn-Image {
+        margin-left:375px;
+    }
+
+    .resume-PDF {
+        margin-left:250px; 
+        margin-top: 50px; 
+        width:1000px; 
+        height:1000px;
+    }
+   
 
     @media only screen and (max-width: 736px) {
         /* phones */
-
         .card {
             margin-left: 10px;
             width: 15%; 
@@ -205,25 +232,56 @@ body {
             margin-left: 80px;
             font-size: 15px;
         }
+
         .card-text {
             font-size: 15px;
             margin-left: 60px;
             margin-right:5px; 
             margin-top: 25px;
-            
         }
+
         .card-block{
             margin-left: 55px;
         }
 
-     
+        .about-Middle-Image {
+            
+          width: 200px; 
+          height: 200px;
+          margin-left: 100px;
+        }
 
-       
+        .about-Paragraph-Header {
+            margin-left: 50px;
+
+        }
+        .about-Paragraph-Text {
+            margin-left:50px; 
+            margin-right: 50px;
+            border: 2px black solid; 
+            font-size: 12px;
+        }
+        .github-Image {
+            margin-left: 80px;
+            
+        }
+        .linkedIn-Image {
+            margin-left:50px;
+        }
+        .resume-PDF {
+            padding: 50px;
+            margin: 0 auto;  
+            width:450px; 
+            height: 650px;
+            
+        }
     }
 
+  
    
-    
-    
+
+  
+
     .navbar{
         display: block;
         margin: auto;
@@ -342,13 +400,12 @@ body {
      
   }
 
-  .navbar-nav li a {
-      color: white;
-  }
-  .navbar-nav li a.active {
-      text-decoration: underline;
-   
-    
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar-nav li a.active {
+    text-decoration: underline;  
 }
 
 
@@ -374,9 +431,7 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    
-
-  }
+}
  
  
   
